@@ -12,40 +12,6 @@ import SocialMediaLogo3 from './Content/PNG/TwitterLogo.png';
 function FAQS(){
     return(
         <div> 
-           
-        
-  
-<Container fluid className="dv1">
-
-
-
-
-</Container>
-<Container fluid className="dvnav">
-        <Row className="justify-content-between">
-            <div className="col-lg-5 col-sm-12 col-md-6 navbarcontent1">
-                <ul>
-                    <li><a href="landingpageBB.html">Home</a> </li>
-                    <li> <a href="About.html" target="_blank">About</a></li>
-                    <li> <a href="Shop.html" target="_blank">Shop</a></li>
-                    <li> <a href="FAQS.html" target="_blank">FAQS</a> </li>
-                    <li> <a href="Ingredients.html" target="_blank">Ingredients</a></li>
-                    <li> <a href="Blogs.html">Blogs</a></li>
-                </ul>
-            </div>
-    
-            <div className="col-lg-5 col-sm-12 col-md-4 navbarcontent2">
-                <a href="landingpageBB.html"> <img className="nav2img" src={NavbarLogo}/> </a>             </div>
-    
-            <div className="col-lg-2 col-sm-12 col-md-2 btnnav">
-                <button className="btnnav1"> <img src={LoginAvatar} width="20px" height="20px"/>  Login</button>
-                <button className="btnnav2">Signup</button>
-            </div>
-    
-        </Row>
-    
-    </Container>
-
 
 
 <Container>
