@@ -1,0 +1,66 @@
+@font-face{
+    src: url(../Content/C_BOX_D.TTF);
+    font-family: ChocolateBox;
+  }
+
+hr{
+    border: 1px solid black;
+}
+.dvabout1{
+    margin-top: 100px;
+}
+
+
+.dvaboutfont1{
+font-family: ChocolateBox;
+font-size:50px ;
+font-weight: bold;
+text-align: center;
+color: rgb(83, 83, 83)
+}
+.aboutcontent{
+    font-size: 18px;
+  
+    font-family: 'Poppins', sans-serif;
+    color: rgb(99, 98, 98)
+}
+.aboutcontent2{
+    font-size: 18px;
+  text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(99, 98, 98)
+}
+.emailinput{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+.emaildiv{
+    margin-top: 30px;
+}
+.emaildivbackground{
+    margin-top: 150px;
+    height: 250px;
+    background-color: rgb(38, 40, 43);
+}
+.emailfont1{
+    font-family: Poppins;
+     font-size: 24px; 
+     color:white;
+
+}
+.emailfont2{
+    font-family: Poppins; 
+    font-size: 16px; 
+    color:white;
+}
+.btnemailsignup{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+.btnemailsignup:hover{
+    background-color:gray;
+}
