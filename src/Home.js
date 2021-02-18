@@ -94,46 +94,37 @@ function Home(){
     
     <Container>
         <Row>
-            <div className="col-lg-12 col-sm-12 col-md-12 quote">
-                <img className="quoteimg" src={BackgroundBeard}/>
-                <div className="quotefont1 centered">
+        <div class="col-lg-12 col-sm-12 col-md-12 quote">
+                <img class="quoteimg" src={BackgroundBeard}/>
+                <div class="quotefont1 centered">
                     Quote
                 </div>
-                <div className="quotefont2 centeredquote2">
+                <div class="quotefont2 centeredquote2">
                     "GROWING A BEARD IS A HABIT,
                     MOST NATURAL SCRIPTURAL,
                     MANLY AND BENEFICIAL."<br/>
                     -C.H. SPURGEON
-    
-    
-                 
-            </div>
-            </div>
-    
-        </Row>
-    
-    </Container>
-    
-    <Container>
-        <Row>
-            <div className="col-lg-12 col-sm-12 col-md-12 quote">
-                <img className="quoteimg" src={BackgroundBeard}/>
-                <div className="quotefont1 centered">
+
+
+                </div>
+                <div class="quote2font1 Whycentered">
                     WHY BABA BEARD?
                 </div>
-                <div className="quotefont2 centered2">
-    
+                <div class="quote2font2 quotecentered2">
+
                     Our beard oil contains 100% Organic Oils which are free from any harmful chemicals. We
-                    have designed a step by step procedure of growing your beard in 3 stages. <br/>
+                    have designed a step by step procedure of growing your beard in 3 stages.<br/>
                     ACTIVATE - FILL PATCHES - NOURISH
-    
-    
+
+
                 </div>
             </div>
     
         </Row>
     
     </Container>
+    
+   
     <Container fluid className="fullimg">
     
     </Container>
@@ -142,16 +133,19 @@ function Home(){
     
     <Container fluid className="organic">
         <Row>
-            <div className="col-lg-12 col-sm-12 col-md-12">
-    
-                <div className="organicheading">
-                    100% ORGANIC
+        <div class="col-lg-12 col-sm-12 col-md-12 organic">
+                <img class="organicimg" src={BackgroundBeard}/>
+                <div class="quotefont1 centered">
+                  100% Organic
                 </div>
-                <div className="organiccontent">
+                <div class="quotefont2 centeredorganic2">
                     The oils used in our products are 100% pure and free from any harmful chemicals. Inorganic
                     materials can cause itchiness and change the color of your beard to white therefore we have
                     refrained from using it in our Beard Oils
+
+
                 </div>
+             
             </div>
         </Row>
     </Container>

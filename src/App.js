@@ -12,7 +12,7 @@ import Blogs from './Blogs';
 function App() {
   return (
    <div>
-    <Ingredients/>
+    <Home/>
    
    </div>
   );
