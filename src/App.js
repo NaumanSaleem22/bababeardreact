@@ -24,9 +24,6 @@ function App() {
         <Route path="/shop" component={Shop}/>
         <Route path="/faqs" component={FAQS}/>
         <Route path="/blogs" component={Blogs}/>
-     
-    
-   
    </Router>
   );
 }
