@@ -11,7 +11,7 @@ const Services=()=>{
 
         <Container fluid>
             <Row className="Mediasection">
-            <Col lg={3} xl={3} md={6} sm={6} xs={10} className="innersection">
+            <Col lg={3} xl={3} md={6} sm={6} xs={10} className="innersection mb-3">
             <Media>
     
     
@@ -39,7 +39,7 @@ const Services=()=>{
  
  
  
-            <Col lg={3} xl={3} md={6} sm={6} xs={10} className="innersection">
+            <Col lg={3} xl={3} md={6} sm={6} xs={10} className="innersection mb-3">
         
             <Media>
     
@@ -69,7 +69,7 @@ const Services=()=>{
 
 
 
-        <Col lg={3} xl={3} md={6} sm={6} xs={10} className="innersection">
+        <Col lg={3} xl={3} md={6} sm={6} xs={10} className="innersection mb-3">
         
         <Media>
   
@@ -97,7 +97,7 @@ const Services=()=>{
        
        
        
-        <Col lg={3} xl={3} md={6} sm={6} xs={10} className="innersection">
+        <Col lg={3} xl={3} md={6} sm={6} xs={10} className="innersection mb-3">
         
 
         <Media>

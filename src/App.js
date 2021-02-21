@@ -12,6 +12,7 @@ import RewardPolicy from './RewardPolicy';
 import Blogs from './Blogs';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Services from './Components/Services';
+import Footer from './Components/Footer';
 function App() {
   return (
  
@@ -29,6 +30,7 @@ function App() {
         
         <Route path="/blogs" component={Blogs}/>
         <Route path="/Services" component={Services}/>
+        <Route path="/Footer" component={Footer}/>
    </Router>
   );
 }

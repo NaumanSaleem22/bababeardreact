@@ -1,0 +1,44 @@
+.footersection{
+    background-color: rgb(32, 32, 32);
+    height: auto;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    color: rgb(206, 201, 201);
+}
+
+.firstsection{
+     
+   padding: 40px; 
+}
+.sectioncontent1{
+    width: 60%;
+}
+.secondsection{
+    padding: 40px; 
+}
+.thirdsection{
+    padding: 40px; 
+    
+}
+.fourthsection{
+    padding: 40px; 
+}
+.Logo{
+    width: 100px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.linktag{
+    text-decoration: none;
+     
+  }
+    
+  .linktag:hover{
+    text-decoration: none;
+    color: gray;
+  }
+
+  .footerheading{     
+    font-size: 2.5rem;
+    font-weight: bold;
+}
