@@ -65,12 +65,10 @@ function Shop() {
                         <div className="fontprice">Rs 799.00</div>
                         <hr />
                         <div>
-                          Lorem ipsum, dolor sit amet consectetur adipisicing
-                          elit. Magni, dolorum illo! Saepe ratione
-                          necessitatibus explicabo laboriosam magni provident
-                          nemo aperiam, quam consequuntur quas vero
-                          voluptatibus, excepturi cupiditate quos? Deserunt,
-                          mollitia.
+                        Those who lack beard hair follicles, need a product that can stimulate growth of hair
+                                            follicles and get absorbed in the skin to facilitate beard growth.
+                                       <br/>     Our Arvore aquilaria Activating Oil contains Eucalyptus oil which is one of the best
+                                            oils to accelerate beard growth and
                         </div>
                         <hr />
                         <div>
@@ -120,12 +118,10 @@ function Shop() {
                         <div className="fontprice">Rs 799.00</div>
                         <hr />
                         <div>
-                          Lorem ipsum, dolor sit amet consectetur adipisicing
-                          elit. Magni, dolorum illo! Saepe ratione
-                          necessitatibus explicabo laboriosam magni provident
-                          nemo aperiam, quam consequuntur quas vero
-                          voluptatibus, excepturi cupiditate quos? Deserunt,
-                          mollitia.
+                        Grama Fresca Oil for filling patches of beard, helps to make your beard complete by
+                                            removing patches off your beard.
+                                            <br/>Having Tea tree Oil, Fill patches Oil helps to unclog pores, protect facial hair, and
+                                            stimulate facial hair growth by absorbing in skin fastly.
                         </div>
                         <hr />
                         <div>
@@ -177,11 +173,9 @@ function Shop() {
                       <div className="fontprice">Rs 799.00</div>
                       <hr />
                       <div>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Magni, dolorum illo! Saepe ratione necessitatibus
-                        explicabo laboriosam magni provident nemo aperiam, quam
-                        consequuntur quas vero voluptatibus, excepturi
-                        cupiditate quos? Deserunt, mollitia.
+                      To tame the mane you proudly own, you need some whip in the form of Our Serein
+                                            epic Nourishing Oil.
+                                            
                       </div>
                       <hr />
                       <div>
@@ -342,6 +336,10 @@ function Shop() {
           </div>
         </Row>
       </Container>
+
+
+
+      
     </div>
   );
 }
