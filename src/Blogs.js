@@ -21,17 +21,11 @@ function Blogs(){
     <img className="bannerimg" src={WebBanner}/>
 
     <div className="bannertext2">
-        BabaBeard - Refund Policy
+        BabaBeard - Blogs
 
     </div>
 
-    <div>
-        <img className="blogbannerimgmustache" src={Mustache}/>
-
-    </div>
-    <div className="bannertext3">
-            Blogs
-        </div>
+     
 </div>
 
 
@@ -54,8 +48,9 @@ function Blogs(){
     </Container>
 
     <Container fluid>
-        <Row className="blogdiv">
-            <div className="col-lg-4 col-sm-12 col-md-3">
+        <Row className="justify-content-center mt-4">
+        <Col lg={4} xl={4} md={6} sm={8} xs={8} >
+          
                 <div className="overlaycontainer">
                     <img className="blogimg" src={Launchingsoon}/>
 
@@ -70,9 +65,9 @@ function Blogs(){
                 </div>
 
 
-            </div>
+            </Col>
 
-            <div className="col-lg-4 col-sm-12 col-md-3">
+            <Col lg={4} xl={4} md={6} sm={8} xs={8} >
                 <div className="overlaycontainer">
                     <img className="blogimg" src={Launchingsoon}/>
 
@@ -85,9 +80,9 @@ function Blogs(){
 
 
                 </div>
-            </div>
+           </Col>
 
-            <div className="col-lg-4 col-sm-12 col-md-3">
+           <Col lg={4} xl={4} md={6} sm={8} xs={8}>
                 <div className="overlaycontainer">
                     <img className="blogimg" src={Launchingsoon}/>
 
@@ -100,11 +95,14 @@ function Blogs(){
 
 
                 </div>
-            </div>
+           </Col>
 
         </Row>
-        <Row className="justify-content-around blogdiv">
-            <div className="col-lg-4 col-sm-12 col-md-3">
+
+
+
+        <Row className="justify-content-center mt-4">
+           <Col lg={4} xl={4} md={6} sm={8} xs={8} >
                 <div className="overlaycontainer">
                     <img className="blogimg" src={Launchingsoon}/>
 
@@ -117,9 +115,9 @@ function Blogs(){
 
 
                 </div>
-            </div>
+          </Col>
 
-            <div className="col-lg-4 col-sm-12 col-md-3">
+          <Col lg={4} xl={4} md={6} sm={8} xs={8} >
                 <div className="overlaycontainer">
                     <img className="blogimg" src={Launchingsoon}/>
 
@@ -132,9 +130,9 @@ function Blogs(){
 
 
                 </div>
-            </div>
+        </Col>
 
-            <div className="col-lg-4 col-sm-12 col-md-3 ">
+        <Col lg={4} xl={4} md={6} sm={8} xs={8} >
                 <div className="overlaycontainer">
                     <img className="blogimg" src={Launchingsoon}/>
 
@@ -148,7 +146,7 @@ function Blogs(){
 
                 </div>
 
-            </div>
+           </Col>
         </Row>
     </Container>
 

@@ -18,7 +18,8 @@ import SlideShowPic3 from './Content/PNG/Slideshow3.jpg';
 import SocialMediaLogo1 from './Content/PNG/FacebookLogo.png';
 import SocialMediaLogo2 from './Content/PNG/InstaLogo.png';
 import SocialMediaLogo3 from './Content/PNG/TwitterLogo.png';
-import BeardTexture from './Content/PNG/BeardTexture.png'
+import BeardTexture from './Content/PNG/BeardTexture.png';
+import Scrollableimage from './Components/ScrollableImage';
 function Home(){
     return(
         <div> 
@@ -89,7 +90,7 @@ function Home(){
     </Container>
     
     
-    
+    <Scrollableimage/>
     
     
     <Container>

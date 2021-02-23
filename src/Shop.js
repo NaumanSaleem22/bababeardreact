@@ -29,10 +29,12 @@ function Shop() {
           </div>
         </Row>
       </Container>
-
+   
+     
+          
       <Container>
-        <Row>
-          <div className="col-lg-4 col-sm-12 col-md-4 dvshoping1">
+        <Row className="justify-content-center">
+        <Col lg={4} xl={4} md={6} sm={8} xs={8} className="dvshoping1">
             <div className="dvshopfont1">Activate - Arvore Aquilaria </div>
             <img className="dv9shopingimg1" src={ActivateVariant} />
             <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
@@ -79,8 +81,8 @@ function Shop() {
               </Modal.Body>
             </Modal>
             
-          </div>
-          <div className="col-lg-4 col-sm-12 col-md-4 dvshoping2">
+          </Col>
+           <Col lg={4} xl={4} md={6} sm={8} xs={8} className="dvshoping2">
             <div className="dvshopfont1">Fill Patches - Grama Fresca</div>
             <img className="dv9shopingimg1" src={FillPatchesVariant} />
             <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
@@ -95,7 +97,7 @@ function Shop() {
                 </button>
               </div>
             </div>
-          </div>
+        
           <Modal
               size="lg"
               show={fillpatches}
@@ -131,10 +133,10 @@ function Shop() {
                     </div>
               </Modal.Body>
             </Modal>
-          
+          </Col>
          
 
-          <div className="col-lg-4 col-sm-12 col-md-4 dvshoping3">
+          <Col lg={4} xl={4} md={6} sm={8} xs={8} className="dvshoping3">
             <div className="dvshopfont1">Nourish - Grama Fresca</div>
             <img className="dv9shopingimg1" src={NourishVariant} />
             <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
@@ -150,7 +152,7 @@ function Shop() {
                 </button>
               </div>
             </div>
-          </div>
+         
           <Modal
               size="lg"
               show={nourish}
@@ -185,7 +187,7 @@ function Shop() {
                   </Row>
               </Modal.Body>
             </Modal>
-          
+          </Col>
           <div className="modal fade dvmodal" id="nourish">
             <div className="modal-dialog  modal-dialog-centered modal-lg">
               <div className="modal-content">
