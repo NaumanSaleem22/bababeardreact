@@ -9,7 +9,7 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     opacity: 0.7;
     z-index: 1;
   }

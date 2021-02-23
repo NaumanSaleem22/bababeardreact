@@ -11,7 +11,7 @@ const Footer=()=>{
 
         <Container fluid>
             <Row className="justify-content-around footersection">
-            <Col lg={6} xl={6} md={6} sm={6} xs={10} className="firstsection">
+            <Col lg={6} xl={6} md={6} sm={6} xs={12} className="firstsection">
 
             <div>
             <a href="#"> <img className="Logo" src={BB}/></a>
@@ -31,7 +31,7 @@ const Footer=()=>{
 
             </Col>
 
-            <Col lg={2} xl={2} md={6} sm={6} xs={10} className="secondsection">
+            <Col lg={2} xl={2} md={6} sm={6} xs={12} className="secondsection">
 
             
             <div>
@@ -47,7 +47,7 @@ const Footer=()=>{
             </div>
             </Col>
 
-            <Col lg={2} xl={2} md={6} sm={6} xs={10} className="thirdsection">
+            <Col lg={2} xl={2} md={6} sm={6} xs={12} className="thirdsection">
 
             <div>
             <p className="footerheading">Engage  </p>
@@ -62,7 +62,7 @@ const Footer=()=>{
                 </div> 
             </Col>
 
-            <Col lg={2} xl={2} md={6} sm={6} xs={10} className="fourthsection">
+            <Col lg={2} xl={2} md={6} sm={6} xs={12} className="fourthsection">
             <div>   
                   <p className="footerheading">
                     Contact

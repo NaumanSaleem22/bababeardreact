@@ -44,6 +44,7 @@ const Abouttus=()=>{
                     out the necessary elements that can help to grow and maintain the Beard, with no itching and
                     irritation at all.
                 </p>
+                
                 <p className="aboutcontent">
                     After comparing 50+ top leading brands all over the world, researching almost every existing
                     skin friendly ingredient that can accelerate the growth of Facial Hair, make the beard look

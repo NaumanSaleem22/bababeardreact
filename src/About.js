@@ -1,22 +1,33 @@
 import React from 'react';
-import {Container, Col, Row} from 'react-bootstrap';
+ 
 import './Style/About.css';
 import './Style/Home.css';
+import {Container, Col, Row, Media } from "react-bootstrap";
 import SilverLogo from './Content/PNG/SilverLogo.png';
 import NavbarLogo from './Content/PNG/Silver.png';
 import LoginAvatar from './Content/PNG/loginavatar.png';
 import SocialMediaLogo1 from './Content/PNG/FacebookLogo.png';
 import SocialMediaLogo2 from './Content/PNG/InstaLogo.png';
 import SocialMediaLogo3 from './Content/PNG/TwitterLogo.png';
+import Scrollimage1 from './Content/PNG/Scrollableimage1.jpeg';
+import Scrollimage2 from './Content/PNG/Scrollableimage2.jpeg';
+import Scrollableimage from './Components/ScrollableImage';
+import Footer from './Components/Footer';
 function About(){
     return(
         <div> 
 
+<div>
+                <img className="Aboutimage1" src={Scrollimage2} />
+                
+                </div> 
 
 
-<div className="container">
-    <div className="row">
-        <div className="col-lg-12 col-sm-12 col-md-12 dvabout1">
+<Container fluid>
+
+    <Row className="justify-content-center">
+ 
+      <Col lg={10} xl={10} md={10} sm={12} xs={12} className="dvabout1">
             <p className="dvaboutfont1"> Our story </p>
             <hr/>
             <div>
@@ -51,6 +62,20 @@ function About(){
                 </p>
                 <br/>
                 <br/>
+ </div>
+</Col>
+</Row>
+</Container>
+
+<div className="parallax1"></div>
+
+<Container fluid>
+
+    <Row className="justify-content-center">
+ 
+      <Col lg={10} xl={10} md={10} sm={12} xs={12} className="dvabout1">
+          <div>
+              
                 <p className="dvaboutfont1"> Our Mission </p>
                 <hr/>
                 <p className="aboutcontent">
@@ -61,6 +86,23 @@ function About(){
                 </p>
                 <br/>
                 <br/>
+
+
+        </div>
+         
+        </Col>
+</Row>
+</Container>
+
+
+<div className="parallax2"></div>
+<Container fluid>
+
+    <Row className="justify-content-center">
+ 
+      <Col lg={10} xl={10} md={10} sm={12} xs={12} className="dvabout1">
+          <div>
+               
                 <p className="dvaboutfont1"> Why Baba Beard? </p>
                 <hr/>
                 <p className="aboutcontent2">
@@ -69,90 +111,39 @@ function About(){
                     ACTIVATE - FILL PATCHES - NOURISH
 
                 </p>
-
+            
             </div>
+              
+</Col>
+       </Row>
+       </Container>
 
-        </div>
-    </div>
-</div>
 
-<div className="container-fluid">
-    <div className="row justify-content-center emaildivbackground">
-        <div className="col-lg-5 col-sm-12 col-md-5 emaildiv">
+
+
+<div className="parallax3"></div>
+<Container fluid>
+    <Row className="justify-content-center emaildivbackground">
+   
+        <Col lg={5} xl={5} md={5} sm={12} xs={12} className="emaildiv">
             <div>
+          
                 <p className="emailfont1">
                     To get the news and updates related to Baba Beard </p>
                     <br/>
                 <p className="emailfont2">Enter your email for Subscription. </p>
              
             <input className="emailinput" type="email" id="email" name="email" placeholder="Type your email"/>
+            
             <button className="btnemailsignup"> Signup </button>
         </div>
-    </div>
+    
+    </Col>
 
-</div>
-</div>
-
-
-<Container fluid>
-<Row className="Footerrow">
-    <div className="col-lg-6 col-sm-12 col-md-6 Footer1">
-        <div className="logo17">
-            <p className="footerlogo"> <a href="#"> <img className="footerlogopic" src={SilverLogo}/></a>
-                BabaBeard<strong>BB</strong> </p>
-
-        </div>
-        <div className="footer1content">
-            BabaBeard is a private beard oil company that manufacture 100% organic beard oil.
-        </div>
-        <div>
-         <a href="www.facebook.com/bababeardco">   <img src={SocialMediaLogo1} width="50px" height="50px"/> </a>
-         <a href="www.instagram.com/bababeardco">  <img src={SocialMediaLogo2} width="40px" height="40px"/> </a>  
-         <a href="www.twitter.com/bababeardco">      <img src={SocialMediaLogo3} width="40px" height="40px"/> </a> 
-     
-        </div>
-        <div>
-          Got any query?
-          <br/>  Send us an email on <a href="support@bababeard.com">support@bababeard.com</a>
-        </div>
-    </div>
-    <div className="col-lg-2 col-sm-6 col-md-2 Footer2">
-        <div className="footer2content1">Product</div>
-        <div className="footer2content2">
-            <p> <a className="linktag" href="RewardPolicy.html"> Reward Policy</a></p>
-            <p> <a className="linktag" href="ReplacingPolicy.html">Replacing Policy </a></p>
-            <p> <a className="linktag" href="RefundPolicy.html"> Refund Policy</a></p>
-
-            <p> <a className="linktag" href="Blogs.html">Blogs </a></p>
-
-        </div>
-    </div>
-    <div className="col-lg-2 col-sm-6 col-md-2 Footer3">
-        <div className="footer2content1">Engage</div>
-        <div className="footer3content1">
-            <p> <a className="linktag" href="landingpageBB.html">BabaBeard</a> </p>
-            <p> <a className="linktag" href="FAQS.html"> FAQS</a></p>
-            <p> <a className="linktag" href="RewardPolicy.html"> Rewards</a></p>
-            <p> <a className="linktag" href="About.html"> About Us</a></p>
-            <p> <a className="linktag" href="PrivacyPolicy.html"> Privacy Policy</a></p>
-            <p> <a className="linktag" href="Terms.html"> Terms of Service </a></p>
-
-        </div>
-    </div>
-    <div className="col-lg-2 col-sm-12 col-md-2 Footer4">
-        <div className="footer2content1">
-            Contact
-         </div>
-        <div className="footer3content1">
-            <p><a className="linktag" href="contactus.html"> Contact us </a> </p>
-
-
-        </div>
-    </div>
 </Row>
 </Container>
 
-
+<Footer/>
 
 
 

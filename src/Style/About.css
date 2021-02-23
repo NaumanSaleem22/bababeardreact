@@ -7,60 +7,127 @@ hr{
     border: 1px solid black;
 }
 .dvabout1{
-    margin-top: 100px;
+padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    height: auto;
 }
 
+.Aboutimage1{
+width:100%;
+max-width: 2000px;
+height: auto;
+}
 
 .dvaboutfont1{
 font-family: ChocolateBox;
-font-size:50px ;
+font-size:3.125rem ;
 font-weight: bold;
 text-align: center;
 color: rgb(83, 83, 83)
 }
 .aboutcontent{
-    font-size: 18px;
-  
+    font-size: 1.125rem;
+    
     font-family: 'Poppins', sans-serif;
     color: rgb(99, 98, 98)
 }
 .aboutcontent2{
-    font-size: 18px;
+    font-size: 1.125rem;
   text-align: center;
     font-family: 'Poppins', sans-serif;
     color: rgb(99, 98, 98)
 }
 .emailinput{
-    width: 300px;
+    width: 250px;
     height: 50px;
     border-radius: 5px;
-
+ 
 }
 .emaildiv{
     margin-top: 30px;
+    
 }
 .emaildivbackground{
-    margin-top: 150px;
+  
     height: 250px;
-    background-color: rgb(38, 40, 43);
+    background-color:#202020
 }
+
 .emailfont1{
     font-family: Poppins;
-     font-size: 24px; 
+     font-size: 1.5rem; 
      color:white;
 
 }
 .emailfont2{
     font-family: Poppins; 
-    font-size: 16px; 
+    font-size: 1rem; 
+ 
     color:white;
 }
 .btnemailsignup{
-    width: 120px;
+    width: 90px;
     height: 40px;
     border-radius: 5px;
+    margin-left: 10px;
     
 }
 .btnemailsignup:hover{
     background-color:gray;
+}
+
+
+.parallax1 {
+    /* The image used */
+    background-image: url("../Content/PNG/Scrollableimage1.jpeg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    opacity: 0.7;
+    z-index: 1;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("../Content/PNG/Scrollableimage3.jpeg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    opacity: 0.7;
+    z-index: 1;
+  }
+  .parallax3 {
+    /* The image used */
+    background-image: url("../Content/PNG/Scrollableimage4.jpeg");
+    
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    opacity: 0.7;
+    z-index: 1;
+  }
+  @media (min-width:800px){
+    html{
+      font-size: 60%;
+    }
+  
+
+
 }
