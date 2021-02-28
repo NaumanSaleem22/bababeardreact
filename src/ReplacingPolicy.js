@@ -1,7 +1,6 @@
 import React from 'react';
 import {Container, Col, Row} from 'react-bootstrap';
-import './Style/Blogs.css';
-import './Style/Home.css';
+ 
 import './Style/Policy.css';
 import SilverLogo from './Content/PNG/SilverLogo.png';
 import NavbarLogo from './Content/PNG/Silver.png';
