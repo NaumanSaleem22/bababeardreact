@@ -6,11 +6,104 @@
 hr{
     border: 1px solid black;
 }
+
+.Sectionone{
+  background-color: black;
+  height: 200px;
+ 
+}
+
+.AboutColumnimg{
+ padding-top: 90px;
+}
+.Columnimg1{
+  width:100%;
+  max-width: 400px;
+ height: 100%;
+  max-height: 600px;
+  border-radius: 10px;
+
+}
+
+.blogbanner{
+  position: relative;
+  margin-top: 100px;
+}
+
+.bannerimg{
+ 
+ width: 100%;
+  max-width:1348px;
+  height: 100%; 
+  max-height:700px;
+    
+   margin-bottom: 70px;
+    
+  
+}
+.aboutbannerbackground{
+  background-image: url(../Content/PNG/SelectedBanner/DMllnafUBJ.jpg);
+  background-size: cover;
+  background-position:center ;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.blogbanner .bannertext2 {
+  position: absolute;
+ 
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: #2b292993; /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.bannr{
+  background-image: url(../Content/PNG/SelectedBanner/DMllnafUBJ.jpg);
+  height: 600px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.bannertxt2{
+  position: absolute;
+  top: 50%;
+  font-size: 2.5rem;
+  font-family: ChocolateBox;
+  text-align: center;
+  color: rgb(218, 218, 218);
+}
+
+
+.aboutfont1heading{
+  font-family: ChocolateBox;
+  font-size:3.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(0, 0, 0)
+  }
+  .aboutcontent{
+      font-size: 1.19rem;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      color: rgb(0, 0, 0)
+  }
+
+
+
+.bannerdiv{
+  margin-top: 40px;
+}
+
+
+
 .dvabout1{
-padding-top: 50px;
+padding-top: 100px;
     text-align: center;
     padding-bottom: 50px;
     height: auto;
+   
 }
 
 .Aboutimage1{
@@ -24,7 +117,7 @@ font-family: ChocolateBox;
 font-size:3.125rem ;
 font-weight: bold;
 text-align: center;
-color: rgb(83, 83, 83)
+color: rgb(0, 0, 0)
 }
 .aboutcontent{
     font-size: 1.125rem;
@@ -123,11 +216,36 @@ color: rgb(83, 83, 83)
     opacity: 0.7;
     z-index: 1;
   }
-  @media (min-width:800px){
+ 
+
+
+
+
+  @media (min-width:300px){
+
     html{
-      font-size: 60%;
+    font-size:60%;
     }
-  
+     
+    }
+    @media (min-width:760px){
 
-
-}
+        html{
+        font-size:70%;
+        }
+         
+        }
+    
+    @media (min-width:900px){
+        html{
+          font-size: 80%;
+        }
+      
+    }
+    
+    
+    @media (min-width:1200px){
+        html{
+          font-size: 90%;
+        }
+    }

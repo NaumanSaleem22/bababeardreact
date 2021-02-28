@@ -20,6 +20,7 @@ import SocialMediaLogo2 from './Content/PNG/InstaLogo.png';
 import SocialMediaLogo3 from './Content/PNG/TwitterLogo.png';
 import BeardTexture from './Content/PNG/BeardTexture.png';
 import Scrollableimage from './Components/ScrollableImage';
+import Footer from './Components/Footer';
 function Home(){
     return(
         <div> 
@@ -486,63 +487,7 @@ function Home(){
     
     
     
-    <Container fluid>
-        <Row className="Footerrow">
-            <div className="col-lg-6 col-sm-12 col-md-6 Footer1">
-                <div className="logo17">
-                    <p className="footerlogo"> <a href="#"> <img className="footerlogopic" src={SilverLogo}/></a>
-                        BabaBeard<strong>BB</strong> </p>
-    
-                </div>
-                <div className="footer1content">
-                    BabaBeard is a private beard oil company that manufacture 100% organic beard oil.
-                </div>
-                <div>
-                 <a href="www.facebook.com/bababeardco">   <img src={SocialMediaLogo1} width="50px" height="50px"/> </a>
-                 <a href="www.instagram.com/bababeardco">  <img src={SocialMediaLogo2} width="40px" height="40px"/> </a>  
-                 <a href="www.twitter.com/bababeardco">      <img src={SocialMediaLogo3} width="40px" height="40px"/> </a> 
-             
-                </div>
-                <div>
-                  Got any query?
-                  <br/>  Send us an email on <a href="support@bababeard.com">support@bababeard.com</a>
-                </div>
-            </div>
-            <div className="col-lg-2 col-sm-6 col-md-2 Footer2">
-                <div className="footer2content1">Product</div>
-                <div className="footer2content2">
-                    <p> <a className="linktag" href="RewardPolicy.html"> Reward Policy</a></p>
-                    <p> <a className="linktag" href="ReplacingPolicy.html">Replacing Policy </a></p>
-                    <p> <a className="linktag" href="RefundPolicy.html"> Refund Policy</a></p>
-    
-                    <p> <a className="linktag" href="Blogs.html">Blogs </a></p>
-    
-                </div>
-            </div>
-            <div className="col-lg-2 col-sm-6 col-md-2 Footer3">
-                <div className="footer2content1">Engage</div>
-                <div className="footer3content1">
-                    <p> <a className="linktag" href="landingpageBB.html">BabaBeard</a> </p>
-                    <p> <a className="linktag" href="FAQS.html"> FAQS</a></p>
-                    <p> <a className="linktag" href="RewardPolicy.html"> Rewards</a></p>
-                    <p> <a className="linktag" href="About.html"> About Us</a></p>
-                    <p> <a className="linktag" href="PrivacyPolicy.html"> Privacy Policy</a></p>
-                    <p> <a className="linktag" href="Terms.html"> Terms of Service </a></p>
-    
-                </div>
-            </div>
-            <div className="col-lg-2 col-sm-12 col-md-2 Footer4">
-                <div className="footer2content1">
-                    Contact
-                 </div>
-                <div className="footer3content1">
-                    <p><a className="linktag" href="contactus.html"> Contact us </a> </p>
-    
-    
-                </div>
-            </div>
-        </Row>
-    </Container>
+    <Footer/>
     </div>
      
     );

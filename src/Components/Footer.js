@@ -38,11 +38,11 @@ const Footer=()=>{
           <p className="footerheading">
               Product
           </p>
-            <p> <a className="linktag" href="RewardPolicy.html"> Reward Policy</a></p>
-                    <p> <a className="linktag" href="ReplacingPolicy.html">Replacing Policy </a></p>
-                    <p> <a className="linktag" href="RefundPolicy.html"> Refund Policy</a></p>
+            <p> <a className="linktag" href="/RewardPolicy"> Reward Policy</a></p>
+                    <p> <a className="linktag" href="/ReplacingPolicy ">Replacing Policy </a></p>
+                    <p> <a className="linktag" href="/RefundPolicy"> Refund Policy</a></p>
     
-                    <p> <a className="linktag" href="Blogs.html">Blogs </a></p>
+                    <p> <a className="linktag" href="/Blogs">Blogs </a></p>
 
             </div>
             </Col>
@@ -53,11 +53,11 @@ const Footer=()=>{
             <p className="footerheading">Engage  </p>
                 
                     <p> <a className="linktag" href="landingpageBB.html">BabaBeard</a> </p>
-                    <p> <a className="linktag" href="FAQS.html"> FAQS</a></p>
-                    <p> <a className="linktag" href="RewardPolicy.html"> Rewards</a></p>
-                    <p> <a className="linktag" href="About.html"> About Us</a></p>
-                    <p> <a className="linktag" href="PrivacyPolicy.html"> Privacy Policy</a></p>
-                    <p> <a className="linktag" href="Terms.html"> Terms of Service </a></p>
+                    <p> <a className="linktag" href="/FAQS"> FAQS</a></p>
+                    <p> <a className="linktag" href="/RewardPolicy"> Rewards</a></p>
+                    <p> <a className="linktag" href="/About"> About Us</a></p>
+                    <p> <a className="linktag" href="/PrivacyPolicy"> Privacy Policy</a></p>
+                    <p> <a className="linktag" href="/Terms"> Terms of Service </a></p>
     
                 </div> 
             </Col>
@@ -68,7 +68,7 @@ const Footer=()=>{
                     Contact
                  </p>
                
-                    <p><a className="linktag" href="contactus.html"> Contact us </a> </p>
+                    <p><a className="linktag" href="/contactus"> Contact us </a> </p>
     </div>
             
 

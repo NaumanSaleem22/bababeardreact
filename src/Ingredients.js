@@ -1,7 +1,8 @@
-import React from "react";
-import { Container, Col, Row } from "react-bootstrap";
-import "./Style/Ingredients.css";
+import React, { useState } from "react";
+import { Container, Col, Row, Modal } from "react-bootstrap";
+import "./Style/Shop.css";
 import "./Style/Home.css";
+import "./Style/Ingredients.css";
 import SilverLogo from "./Content/PNG/SilverLogo.png";
 import NavbarLogo from "./Content/PNG/Silver.png";
 import LoginAvatar from "./Content/PNG/loginavatar.png";
@@ -20,45 +21,54 @@ import Peppermint from "./Content/PNG/Oil/peppermint_oil_.png";
 import Rosemary from "./Content/PNG/Oil/rosemary_oil_seed.png";
 import SweetAlmond from "./Content/PNG/Oil/sweet_almond_oil.png";
 import TeaTree from "./Content/PNG/Oil/teatree.png";
-
+import Footer from "./Components/Footer"
+import {  } from "module";
 function Ingredients() {
+  const [activate, setActivate] = useState(false);
+  const [fillpatches, setFillPatches] = useState(false);
+  const [nourish, setNourish] = useState(false);
   return (
     <div>
-
-      <Container className="ingredienthead">
-        <div className="IngredientMainHeading">
-          <h2>Ingredients</h2>
-          <p>Click on the boxes below:</p>
-        </div>
-      </Container>
-
       <Container>
+        <div className="dvshop1">Beard Oil Variants</div>
+        <hr />
+      </Container>
+      <Container fluid>
         <Row>
-          <div className="col-lg-4 col-sm-12 col-md-4">
-            <div>
-              <img className="ingimage1" src={ActivateVariant} />
-              <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
-                <div className="IngredientTitle">Activate</div>
-                <div className="divbtning IngredientDescription">
-                  <button
-                    className="btnshop1"
-                    data-toggle="modal"
-                    data-target="#activate"
-                  >
-                    Quick View <br /> <i className="fa fa-eye"></i>{" "}
-                  </button>
-                </div>
+          <div className="col-lg-12 col-sm-12 col-md-12">
+            <div className="IngredientTitle">Products</div>
+          </div>
+        </Row>
+      </Container>
+   
+     
+          
+      <Container>
+        <Row className="justify-content-center">
+        <Col lg={4} xl={4} md={6} sm={8} xs={8} className="dvshoping1">
+            <div className="dvshopfont1">Activate - Arvore Aquilaria </div>
+            <img className="dv9shopingimg1" src={ActivateVariant} />
+            <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
+              <div className="dv9imgshopdescription">
+                <button className="btnshop1" onClick={() => setActivate(true)}>
+                  Quick View <br />
+                  <i className="fa fa-eye"></i>
+                </button>
               </div>
             </div>
-          </div>
-
-          <div class="modal fade dvmodal" id="activate">
-            <div className="modal-dialog  modal-dialog-centered modal-xl">
-              <div className="modal-content">
-                <div className="modal-body">
-                  <div className="row">
-                    <div className="MainTitle"> Activate</div>
-                    <div className="container">
+            <Modal
+              size="lg"
+              show={activate}
+              onHide={() => setActivate(false)}
+              aria-labelledby="example-modal-sizes-title-sm"
+            >
+              <Modal.Header closeButton>
+                <Modal.Title id="example-modal-sizes-title-sm">
+                Activate - Beard Oil
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+              <div className="container">
                       <div className="row justify-content-around">
                         <div className="col-lg-6 col-sm-12 col-md-4 act1">
                           <p className="Title">Argan Oil </p>
@@ -112,10 +122,216 @@ function Ingredients() {
                         </div>
                       </div>
                     </div>
-                  </div>
+              </Modal.Body>
+            </Modal>
+            
+          </Col>
+           <Col lg={4} xl={4} md={6} sm={8} xs={8} className="dvshoping2">
+            <div className="dvshopfont1">Fill Patches - Grama Fresca</div>
+            <img className="dv9shopingimg1" src={FillPatchesVariant} />
+            <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
+              <div className="dv9imgshopdescription">
+                <button
+                  className="btnshop1"
+                  data-toggle="modal"
+                  data-target="#fillpatches"
+                  onClick={() => setFillPatches(true)} 
+                >
+                  Quick View <br /> <i className="fa fa-eye"></i>
+                </button>
+              </div>
+            </div>
+        
+          <Modal
+              size="lg"
+              show={fillpatches}
+              onHide={() => setFillPatches(false)}
+              aria-labelledby="example-modal-sizes-title-sm"
+            >
+              <Modal.Header closeButton>
+                <Modal.Title id="example-modal-sizes-title-sm">
+                Fill Patches - Grama Fresca
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                  <div className="row">
+                      <div className="col-lg-6 col-sm-12 col-md-6">
+                        <img className="dv9shopingimg1" src={fillpatches} />
+                      </div>
+                      <div class="container">
+            
+            
+            <div class="row justify-content-around">
+                <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                    <p class="Title">Argan Oil </p>
+                    <p class="Description">It will make hair soft and shiny, and prevent skin inflammation,
+                        acne and flaky</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                    <img class="ArganOilImg" src={ArganOil}/>
+                </div>
+            </div>
+
+
+            <div class="row justify-content-around">
+                <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                    <p class="Title">Castor Oil</p>
+                    <p class="Description">Seals in moisture to thicken hair, prevent breakage, and split
+                        ends. It also has
+                        antibacterial, anti-inflammatory and antifungal properties which can detoxify and treat
+                        infection while stimulating blood circulation to the skin.s</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                    <img className="CastorOil"src={CastorOil}/>
+                </div>
+            </div>
+
+
+
+            <div class="row justify-content-around">
+                <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                    <p class="Title">Rosemary</p>
+                    <p class="Description">
+                        Gets easily absorbed into your bloodstream and stimulates hair
+                        follicles.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                    <img class="RosemaryImg" src={Rosemary}/>
+                </div>
+            </div>
+
+            <div class="row justify-content-around">
+                <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                    <p class="Title">Tea Tree</p>
+                    <p class="Description">
+                        Protects facial hair, helps to unclog pores, gives your hair a
+                        non-greasy and
+                        healthy look.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                    <img class="TeatreeImg" src={TeaTree}/>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+                    </div>
+              </Modal.Body>
+            </Modal>
+          </Col>
+         
+
+          <Col lg={4} xl={4} md={6} sm={8} xs={8} className="dvshoping3">
+            <div className="dvshopfont1">Nourish - Grama Fresca</div>
+            <img className="dv9shopingimg1" src={NourishVariant} />
+            <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
+              <div className="dv9imgshopdescription">
+                <button
+                  className="btnshop1"
+                  data-toggle="modal"
+                  data-target="#nourish"
+                  onClick={() => setNourish(true)}
+                >
+                  {" "}
+                  Quick View <br /> <i className="fa fa-eye"></i>
+                </button>
+              </div>
+            </div>
+         
+          <Modal
+              size="lg"
+              show={nourish}
+              onHide={() => setNourish(false)}
+              aria-labelledby="example-modal-sizes-title-sm"
+            >
+              <Modal.Header closeButton>
+                <Modal.Title id="example-modal-sizes-title-sm">
+                Fill Patches - Grama Fresca
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+              <Row>
+                  
+                                <div class="container">
+
+
+                                    <div class="row justify-content-around">
+                                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                                            <p class="Title">Jojoba Oil</p>
+                                            <p class="Description">Extremely nourishing to damaged skin and hair, helps to prevent
+                                                protein and moisture loss in hair, protects against the sun with a thin lipid layer.</p>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                                            <img class="JojobaOil" src={JojobaOil}/>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="row justify-content-around">
+                                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                                            <p class="Title">Sweet Almond Oil </p>
+                                            <p class="Description">It helps normalize the pH levels of the skin under the beard
+                                                and is known
+                                                for its ability to soothe inflamed skin, preventing beard itch while conditioning hair.</p>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                                            <img className="SweetAlmondOil" src={SweetAlmond} />
+                                        </div>
+                                    </div>
+                    
+                    
+                    
+                    
+                    
+                                    <div class="row justify-content-around">
+                                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                                            <p class="Title">Peppermint</p>
+                                            <p class="Description"> It helps to stimulate better blood flow beneath the skin which
+                                                brings more
+                                                nutrients to the hair follicles.</p>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                                            <img class="PeppermintImg" src={Peppermint}/>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="row justify-content-around">
+                                        <div class="col-lg-6 col-sm-6 col-md-4 act1">
+                                            <p class="Title">Lavender</p>
+                                            <p class="Description">
+                                                It has a calming fragrance and helps to grow hair thicker and
+                                                faster.
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 col-md-4 act2">
+                                            <img class="LavenderImg" src={Lavender}/>
+                                        </div>
+                                    </div>
+                    
+                    
+                    
+                                </div>
+            
+            
+            
+                            
+                  </Row>
+              </Modal.Body>
+            </Modal>
+          </Col>
+          <div className="modal fade dvmodal" id="nourish">
+            <div className="modal-dialog  modal-dialog-centered modal-lg">
+              <div className="modal-content">
+                <div className="modal-body">
+                 
                 </div>
 
-                <div class="modal-footer">
+                <div className="modal-footer">
                   <button
                     type="button"
                     className="btn btn-danger"
@@ -127,183 +343,14 @@ function Ingredients() {
               </div>
             </div>
           </div>
-
-          <div className="col-lg-4 col-sm-12 col-md-4">
-            <div>
-              <img className="ingimage1" src={FillPatchesVariant} />
-              <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
-                <div className="IngredientTitle">Fill Patches</div>
-
-                <div className="divbtning IngredientDescription">
-                  <button
-                    className="btnshop1"
-                    data-toggle="modal"
-                    data-target="#Fillpatches"
-                  >
-                    Quick View <br /> <i className="fa fa-eye"></i>{" "}
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-sm-12 col-md-4">
-            <div>
-              <img className="ingimage1" src={NourishVariant} />
-              <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
-                <div className="IngredientTitle">Nourish</div>
-                <div className="divbtning IngredientDescription">
-                  <button className="btningredients">View ingredients</button>
-                </div>
-              </div>
-            </div>
-          </div>
         </Row>
       </Container>
 
-      <Container fluid>
-        <Row className="Footerrow">
-          <div className="col-lg-6 col-sm-12 col-md-6 Footer1">
-            <div className="logo17">
-              <p className="footerlogo">
-                {" "}
-                <a href="#">
-                  {" "}
-                  <img className="footerlogopic" src={SilverLogo} />
-                </a>
-                BabaBeard<strong>BB</strong>{" "}
-              </p>
-            </div>
-            <div className="footer1content">
-              BabaBeard is a private beard oil company that manufacture 100%
-              organic beard oil.
-            </div>
-            <div>
-              <a href="www.facebook.com/bababeardco">
-                {" "}
-                <img src={SocialMediaLogo1} width="50px" height="50px" />{" "}
-              </a>
-              <a href="www.instagram.com/bababeardco">
-                {" "}
-                <img src={SocialMediaLogo2} width="40px" height="40px" />{" "}
-              </a>
-              <a href="www.twitter.com/bababeardco">
-                {" "}
-                <img src={SocialMediaLogo3} width="40px" height="40px" />{" "}
-              </a>
-            </div>
-            <div>
-              Got any query?
-              <br /> Send us an email on{" "}
-              <a href="support@bababeard.com">support@bababeard.com</a>
-            </div>
-          </div>
-          <div className="col-lg-2 col-sm-6 col-md-2 Footer2">
-            <div className="footer2content1">Product</div>
-            <div className="footer2content2">
-              <p>
-                {" "}
-                <a className="linktag" href="RewardPolicy.html">
-                  {" "}
-                  Reward Policy
-                </a>
-              </p>
-              <p>
-                {" "}
-                <a className="linktag" href="ReplacingPolicy.html">
-                  Replacing Policy{" "}
-                </a>
-              </p>
-              <p>
-                {" "}
-                <a className="linktag" href="RefundPolicy.html">
-                  {" "}
-                  Refund Policy
-                </a>
-              </p>
-
-              <p>
-                {" "}
-                <a className="linktag" href="Blogs.html">
-                  Blogs{" "}
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-2 col-sm-6 col-md-2 Footer3">
-            <div className="footer2content1">Engage</div>
-            <div className="footer3content1">
-              <p>
-                {" "}
-                <a className="linktag" href="landingpageBB.html">
-                  BabaBeard
-                </a>{" "}
-              </p>
-              <p>
-                {" "}
-                <a className="linktag" href="FAQS.html">
-                  {" "}
-                  FAQS
-                </a>
-              </p>
-              <p>
-                {" "}
-                <a className="linktag" href="RewardPolicy.html">
-                  {" "}
-                  Rewards
-                </a>
-              </p>
-              <p>
-                {" "}
-                <a className="linktag" href="About.html">
-                  {" "}
-                  About Us
-                </a>
-              </p>
-              <p>
-                {" "}
-                <a className="linktag" href="PrivacyPolicy.html">
-                  {" "}
-                  Privacy Policy
-                </a>
-              </p>
-              <p>
-                {" "}
-                <a className="linktag" href="Terms.html">
-                  {" "}
-                  Terms of Service{" "}
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-2 col-sm-12 col-md-2 Footer4">
-            <div className="footer2content1">Contact</div>
-            <div className="footer3content1">
-              <p>
-                <a className="linktag" href="contactus.html">
-                  {" "}
-                  Contact us{" "}
-                </a>{" "}
-              </p>
-            </div>
-          </div>
-        </Row>
-      </Container>
-
-      {/* <script>
-    function openTab(tabName) {
-        var i, x;
-        x = document.getElementsByClassName("containerTab");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        document.getElementById(tabName).style.display = "block";
+      <Footer/>
 
 
 
-    }
-</script>
- */}
+      
     </div>
   );
 }

@@ -1,7 +1,5 @@
 import React from 'react';
 import {Container, Col, Row} from 'react-bootstrap';
-import './Style/Blogs.css';
-import './Style/Home.css';
 import './Style/Policy.css';
 import SilverLogo from './Content/PNG/SilverLogo.png';
 import NavbarLogo from './Content/PNG/Silver.png';
@@ -15,27 +13,15 @@ function RewardPolicy(){
     return(
         <div> 
 
-<div className="blogbanner">
-    <img className="bannerimg" src={WebBanner}/>
-
-    <div className="bannertext2">
-        BabaBeard - Reward Policy
-
-    </div>
-
-    <div>
-        <img className="blogbannerimgmustache" src={Mustache}/>
-
-    </div>
  
-</div>
 
 <Container>
         <Row>
             <div className="col-lg-12 col-sm-12 col-md-12">
-                <div className="policymainheading">
-                    Reward Policy
-                </div>
+            <div className="bannertext2">
+        BabaBeard - Reward Policy
+
+    </div>
 
                 <div className="policyheading">
                     1.Articles/Blogpost Competition
@@ -93,65 +79,6 @@ name should be same which your friend used while ordering and it will be checked
         </Row>
         
     </Container>
-
-<Container fluid>
-<Row className="Footerrow">
-    <div className="col-lg-6 col-sm-12 col-md-6 Footer1">
-        <div className="logo17">
-            <p className="footerlogo"> <a href="#"> <img className="footerlogopic" src={SilverLogo}/></a>
-                BabaBeard<strong>BB</strong> </p>
-
-        </div>
-        <div className="footer1content">
-            BabaBeard is a private beard oil company that manufacture 100% organic beard oil.
-        </div>
-        <div>
-         <a href="www.facebook.com/bababeardco">   <img src={SocialMediaLogo1} width="50px" height="50px"/> </a>
-         <a href="www.instagram.com/bababeardco">  <img src={SocialMediaLogo2} width="40px" height="40px"/> </a>  
-         <a href="www.twitter.com/bababeardco">      <img src={SocialMediaLogo3} width="40px" height="40px"/> </a> 
-     
-        </div>
-        <div>
-          Got any query?
-          <br/>  Send us an email on <a href="support@bababeard.com">support@bababeard.com</a>
-        </div>
-    </div>
-    <div className="col-lg-2 col-sm-6 col-md-2 Footer2">
-        <div className="footer2content1">Product</div>
-        <div className="footer2content2">
-            <p> <a className="linktag" href="RewardPolicy.html"> Reward Policy</a></p>
-            <p> <a className="linktag" href="ReplacingPolicy.html">Replacing Policy </a></p>
-            <p> <a className="linktag" href="RefundPolicy.html"> Refund Policy</a></p>
-
-            <p> <a className="linktag" href="Blogs.html">Blogs </a></p>
-
-        </div>
-    </div>
-    <div className="col-lg-2 col-sm-6 col-md-2 Footer3">
-        <div className="footer2content1">Engage</div>
-        <div className="footer3content1">
-            <p> <a className="linktag" href="landingpageBB.html">BabaBeard</a> </p>
-            <p> <a className="linktag" href="FAQS.html"> FAQS</a></p>
-            <p> <a className="linktag" href="RewardPolicy.html"> Rewards</a></p>
-            <p> <a className="linktag" href="About.html"> About Us</a></p>
-            <p> <a className="linktag" href="PrivacyPolicy.html"> Privacy Policy</a></p>
-            <p> <a className="linktag" href="Terms.html"> Terms of Service </a></p>
-
-        </div>
-    </div>
-    <div className="col-lg-2 col-sm-12 col-md-2 Footer4">
-        <div className="footer2content1">
-            Contact
-         </div>
-        <div className="footer3content1">
-            <p><a className="linktag" href="contactus.html"> Contact us </a> </p>
-
-
-        </div>
-    </div>
-</Row>
-</Container>
- 
 
 
 

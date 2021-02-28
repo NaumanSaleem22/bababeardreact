@@ -2,6 +2,7 @@ import React from 'react';
  
 import './Style/About.css';
 import './Style/Home.css';
+ 
 import {Container, Col, Row, Media } from "react-bootstrap";
 import SilverLogo from './Content/PNG/SilverLogo.png';
 import NavbarLogo from './Content/PNG/Silver.png';
@@ -12,25 +13,49 @@ import SocialMediaLogo3 from './Content/PNG/TwitterLogo.png';
 import Scrollimage1 from './Content/PNG/Scrollableimage1.jpeg';
 import Scrollimage2 from './Content/PNG/Scrollableimage2.jpeg';
 import Scrollableimage from './Components/ScrollableImage';
+import sunbottle from './Content/PNG/faizan2.jpg';
+import secondbanner from './Content/PNG/SelectedBanner/DMllnafUBJ.jpg';
+import clickedbanner from './Content/PNG/images/New folder/clicked.jpg';
 import Footer from './Components/Footer';
+import Services from './Components/Services';
 function About(){
     return(
         <div> 
-
 <div>
-                <img className="Aboutimage1" src={Scrollimage2} />
+<div className="bannr">
+
+<div className="bannertxt2">
+                  BabaBeard - About us
+
+                </div>
+
+
+</div>
+
+
+</div>
+
+
+<div className="blogbanner">
+                <img className="bannerimg" src={clickedbanner}/>
+
+                <div className="bannertext2">
+                  BabaBeard - About us
+
+                </div>
+
+                 
+            </div>
+            
+               <Container>
+                <Row className="justify-content-center">
                 
-                </div> 
-
-
-<Container fluid>
-
-    <Row className="justify-content-center">
- 
-      <Col lg={10} xl={10} md={10} sm={12} xs={12} className="dvabout1">
-            <p className="dvaboutfont1"> Our story </p>
-            <hr/>
-            <div>
+                <Col lg={6} xl={6} md={8} sm={8} xs={8} className="aboutsection1">
+                    <div>
+                    <p className="aboutfont1heading"> Our story </p>
+         
+        
+                <hr/>
                 <p className="aboutcontent">
                     The time when everyone was having beard craze, there was a team of friends aiming to have a
                     beard like no one else, thick, shiny and Attractive. But I noticed that growing and maintaining
@@ -41,6 +66,7 @@ function About(){
                     out the necessary elements that can help to grow and maintain the Beard, with no itching and
                     irritation at all.
                 </p>
+                
                 <p className="aboutcontent">
                     After comparing 50+ top leading brands all over the world, researching almost every existing
                     skin friendly ingredient that can accelerate the growth of Facial Hair, make the beard look
@@ -60,14 +86,29 @@ function About(){
                     This is how “Baba Beard” a Beard Care Company came into existence, to cater
                     the Best product to their bearded Brothers.
                 </p>
-                <br/>
-                <br/>
- </div>
-</Col>
-</Row>
-</Container>
+                    </div>
 
-<div className="parallax1"></div>
+
+                </Col>
+                
+                <Col lg={4} xl={4} md={8} sm={8} xs={8} >
+                    <div className="AboutColumnimg">
+                        <img className="Columnimg1" src={sunbottle}/>
+                    </div>
+
+
+                </Col>
+                </Row>
+
+
+
+
+
+
+
+            </Container>
+
+
 
 <Container fluid>
 
@@ -93,9 +134,9 @@ function About(){
         </Col>
 </Row>
 </Container>
-
-
-<div className="parallax2"></div>
+            
+<div className="parallax1"></div>
+ 
 <Container fluid>
 
     <Row className="justify-content-center">
@@ -118,10 +159,7 @@ function About(){
        </Row>
        </Container>
 
-
-
-
-<div className="parallax3"></div>
+       
 <Container fluid>
     <Row className="justify-content-center emaildivbackground">
    
@@ -142,7 +180,7 @@ function About(){
 
 </Row>
 </Container>
-
+<Services/>
 <Footer/>
 
 

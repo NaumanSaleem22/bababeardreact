@@ -13,8 +13,10 @@ import Blogs from './Blogs';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Services from './Components/Services';
 import Footer from './Components/Footer';
-import Abouttus from './Components/Abouttus';
+import Contactus from './Contactus';
+ 
 import Scrollableimage from './Components/ScrollableImage';
+ 
 function App() {
   return (
  
@@ -27,13 +29,16 @@ function App() {
         <Route path="/" component={Home} exact/>
         <Route path="/about-us" component={About}/>
         <Route path="/ingredients" component={Ingredients}/>
+        <Route path="/RefundPolicy" component={RefundPolicy}/>
+        <Route path="/RewardPolicy" component={RewardPolicy}/>
+        <Route path="/ReplacingPolicy" component={ReplacingPolicy}/>
         <Route path="/shop" component={Shop}/>
         <Route path="/faqs" component={FAQS}/>
-        
+        <Route path="/Contactus" component={Contactus}/>
         <Route path="/blogs" component={Blogs}/>
         <Route path="/Services" component={Services}/>
         <Route path="/Footer" component={Footer}/>
-        <Route path="/Abouttus" component={Abouttus}/>
+       
         <Route path="/ScrollableImage" component={Scrollableimage}/>
    </Router>
   );

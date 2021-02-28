@@ -1,7 +1,6 @@
 import React from 'react';
 import {Container, Col, Row} from 'react-bootstrap';
-import './Style/Blogs.css';
-import './Style/Home.css';
+ 
 import './Style/Policy.css';
 import SilverLogo from './Content/PNG/SilverLogo.png';
 import NavbarLogo from './Content/PNG/Silver.png';
@@ -20,27 +19,18 @@ function ReplacingPolicy(){
 
 
 
-<div className="blogbanner">
-    <img className="bannerimg" src={WebBanner}/>
 
-    <div className="bannertext2">
-        BabaBeard - Replacing Policy
 
-    </div>
 
-    <div>
-        <img className="blogbannerimgmustache" src={Mustache}/>
 
-    </div>
- 
-</div>
 
 <Container>
     <Row>
         <div className="col-lg-12 col-sm-12 col-md-12">
-            <div className="policymainheading">
-                Replacing Policy
-            </div>
+        <div className="bannertext2">
+        BabaBeard - Replacing Policy
+
+    </div>
 
             <div className="refundpolicy">
                 If the bottle is delivered damaged or if you feel any irritation on your skin after applying, you
