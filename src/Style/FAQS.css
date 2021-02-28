@@ -11,10 +11,16 @@ hr{
     margin-bottom: 100px;
     
 }
-
+.faqbackground{
+  background-image: url(../Content/PNG/SelectedBanner/DMllnafUBJ.jpg);
+  background-size: 100% auto;
+  background-position:center ;
+  background-repeat: no-repeat;
+  height: 600px;
+}
 .faqsmainheading{
 font-family: ChocolateBox;
-font-size:50px ;
+font-size:3.125rem ;
 font-weight: bold;
 text-align: center;
 
@@ -24,52 +30,84 @@ color: rgb(83, 83, 83)
     margin-top: 50px;
     margin-bottom: 20px;
     font-family: ChocolateBox;
-    font-size:30px ;
+    font-size:1.875rem ;
     font-weight: bold;
     color:  rgb(56, 54, 54);
 
 }
 
 .faqans{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: 'Poppins', sans-serif;
     color: rgb(99, 98, 98);
 }
 .collapsible {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     color: rgb(56, 54, 54);
     cursor: pointer;
     padding: 18px;
-   
+    text-align: left;
     border: none;
    
     outline: none;
    
   }
   
-  .active, .collapsible:hover {
-    background-color: #555;
-    color: white;
-  }
-  
-  .content {
-    max-height: 0;
-    padding: 0 18px;
    
-    overflow: hidden;
+  .content {
+    max-height: auto;
+    padding: 0 18px;
+    
     background-color: #f1f1f1;
     transition: max-height 0.2s ease-out;
   }
   .collapsible:after {
     content:  "▼"; /* Unicode character for "plus" sign (+) */
-    font-size: 33px;
+    font-size: 1.263rem;
     color: rgb(0, 0, 0);
-    float: right;
+    
+    
    
   }
   
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
+
+  link{
+    text-decoration: none;
+  }
+
+  
+
+
+  @media (min-width:300px){
+
+    html{
+    font-size:60%;
+    }
+     
+    }
+    @media (min-width:760px){
+
+        html{
+        font-size:70%;
+        }
+         
+        }
+    
+    @media (min-width:900px){
+        html{
+          font-size: 80%;
+        }
+      
+    }
+    
+    
+    @media (min-width:1200px){
+        html{
+          font-size: 90%;
+        }
+    }
