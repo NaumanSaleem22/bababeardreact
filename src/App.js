@@ -13,7 +13,7 @@ import Blogs from './Blogs';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Services from './Components/Services';
 import Footer from './Components/Footer';
- 
+import Contactus from './Contactus';
  
 import Scrollableimage from './Components/ScrollableImage';
  
@@ -34,7 +34,7 @@ function App() {
         <Route path="/ReplacingPolicy" component={ReplacingPolicy}/>
         <Route path="/shop" component={Shop}/>
         <Route path="/faqs" component={FAQS}/>
-        
+        <Route path="/Contactus" component={Contactus}/>
         <Route path="/blogs" component={Blogs}/>
         <Route path="/Services" component={Services}/>
         <Route path="/Footer" component={Footer}/>
