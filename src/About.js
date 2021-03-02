@@ -22,7 +22,8 @@ function About(){
     return(
         <div> 
 <div>
-<div className="bannr">
+
+<Container fluid className="bannr">
 
 <div className="bannertxt2">
                   BabaBeard - About us
@@ -30,22 +31,13 @@ function About(){
                 </div>
 
 
-</div>
+</Container>
 
 
 </div>
 
 
-<div className="blogbanner">
-                <img className="bannerimg" src={clickedbanner}/>
-
-                <div className="bannertext2">
-                  BabaBeard - About us
-
-                </div>
-
-                 
-            </div>
+ 
             
                <Container>
                 <Row className="justify-content-center">

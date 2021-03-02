@@ -61,10 +61,10 @@ hr{
 .bannr{
   background-image: url(../Content/PNG/SelectedBanner/DMllnafUBJ.jpg);
   height: 600px;
-  background-size: 100% auto;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  position: relative;
+   
 }
 .bannertxt2{
   position: absolute;
@@ -220,32 +220,4 @@ color: rgb(0, 0, 0)
 
 
 
-
-  @media (min-width:300px){
-
-    html{
-    font-size:60%;
-    }
-     
-    }
-    @media (min-width:760px){
-
-        html{
-        font-size:70%;
-        }
-         
-        }
-    
-    @media (min-width:900px){
-        html{
-          font-size: 80%;
-        }
-      
-    }
-    
-    
-    @media (min-width:1200px){
-        html{
-          font-size: 90%;
-        }
-    }
+ 
