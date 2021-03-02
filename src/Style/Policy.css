@@ -1,28 +1,36 @@
 @font-face{
-    src: url(../Content/C_BOX_D.TTF);
-    font-family: ChocolateBox;
+    src: url(../Content/Oswald-Regular.ttf);
+   
+    font-family: Oswald;
+  
+  }
+  @font-face{
+    src: url(../Content/OpenSans-Regular.ttf);
+   
+    font-family: OpenSans;
+  
   }
 
 .policyheading{
-    font-size: 1.75rem;
+    font-size: 32px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: Oswald;
     color: rgb(58, 58, 58);
     margin-top: 50px;
 
 }
 
 .policycontent{
-    font-size: 1.125rem;
-    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-family:OpenSnas;
     color: rgb(59, 59, 59);
     margin-top: 10px;
 }
 .policymainheading{
     margin-top: 100px;
     margin-bottom: 20px;
-    font-family: ChocolateBox;
-    font-size:3.125rem ;
+    font-family: Oswald;
+    font-size:32px ;
     font-weight: bold;
     text-align: center;
     color: rgb(59, 59, 59);
@@ -31,12 +39,12 @@
 .bannertext2{
     top: 0px;
     font-size: 40px;
-    font-family: ChocolateBox;
+    font-family: Oswald;
     text-align: center;
 }
 .refundpolicy{
-    font-size: 1.125rem;
-    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-family: OpenSans;
     color: rgb(59, 59, 59);
     margin-top: 30px;
     margin-bottom: 50px;

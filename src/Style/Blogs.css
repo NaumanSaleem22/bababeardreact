@@ -1,6 +1,14 @@
 @font-face{
-  src: url(../Content/C_BOX_D.TTF);
-  font-family: ChocolateBox;
+  src: url(../Content/Oswald-Regular.ttf);
+ 
+  font-family: Oswald;
+
+}
+@font-face{
+  src: url(../Content/OpenSans-Regular.ttf);
+ 
+  font-family: OpenSans;
+
 }
 
 
@@ -34,9 +42,10 @@
   }
 .bannertext2{
     top: 0px;
-    font-size: 40px;
-    font-family: ChocolateBox;
+    font-size: 38px;
+    font-family: Oswald;
     text-align: center;
+    font-weight: bold;
 }
 
 .bannertext3{
@@ -44,14 +53,14 @@
     position: absolute;
     left: 600px;
     font-size: 48px;
-    font-family: ChocolateBox;
+    font-family: Oswald;
    
     color: rgb(168, 168, 168);
 }
  
   .blogfont1{
     font-size: 38px;
-    font-family: ChocolateBox;
+    font-family: Oswald;
     text-align: center;
 }
 
@@ -60,7 +69,7 @@
 }
 .blogfont2{
     font-size: 24px;
-    font-family: ChocolateBox;
+    font-family: Oswald;
     text-align: center;
 }
 
@@ -111,7 +120,7 @@
   
   .text {
     color: white;
-    font-family: ChocolateBox;
+    font-family: OpenSans;
     font-size: 20px;
     font-weight: bold;
     position: absolute;
@@ -126,7 +135,7 @@
      
       margin-top:20px;
       background-color: transparent;
-      font-family: ChocolateBox;
+      font-family: Oswald;
       color: rgb(255, 255, 255);
       font-weight: bold;
       font-size: 22px;
