@@ -1,0 +1,51 @@
+.an1{
+    width: 400px;
+    height: 300px;
+    animation: salam1 2s;
+   
+}
+@keyframes salam1{
+    0% {
+        transform: translate(0px,0px);
+    }
+ 
+    100%{
+        transform: translate(300px,0px);
+    }
+}
+.an2{
+
+    width: 300px;
+    height: 300px;
+    animation: salam2 2s infinite;
+}
+@keyframes salam2{
+    0% {
+        transform: translate(0px,20px);
+    }
+    100%{
+        transform: translate(0px,-200px);
+    }}
+
+.an3{
+    margin-top: 90px;
+    width: 300px;
+    height: 300px;
+    animation: salam3 2s infinite;
+ 
+}
+@keyframes salam3{
+    0% {
+        transform: translate(0px,20px);
+    }
+    100%{
+        transform: translate(0px,200px);
+    }
+    
+}
+.anicol{
+    margin-top: 120px;
+}
+
+ 
+ 

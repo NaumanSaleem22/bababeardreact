@@ -14,6 +14,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Services from './Components/Services';
 import Footer from './Components/Footer';
 import Contactus from './Contactus';
+import AnimationImg from './Components/AnimationImg';
  
 import Scrollableimage from './Components/ScrollableImage';
  
@@ -38,7 +39,8 @@ function App() {
         <Route path="/blogs" component={Blogs}/>
         <Route path="/Services" component={Services}/>
         <Route path="/Footer" component={Footer}/>
-       
+         
+        <Route path="/AnimationImg" component={AnimationImg}/>
         <Route path="/ScrollableImage" component={Scrollableimage}/>
    </Router>
   );
