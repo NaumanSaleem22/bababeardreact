@@ -5,7 +5,7 @@ import Header from './Components/Header'
 import Shop from './Shop';
 import FAQS from './FAQS';
 import Ingredients from './Ingredients';
-import About from './About';
+
 import ReplacingPolicy from './ReplacingPolicy';
 import RefundPolicy from './RefundPolicy';
 import RewardPolicy from './RewardPolicy';
@@ -28,7 +28,7 @@ function App() {
      
      <Header/>
         <Route path="/" component={Home} exact/>
-        <Route path="/about-us" component={About}/>
+        
         <Route path="/ingredients" component={Ingredients}/>
         <Route path="/RefundPolicy" component={RefundPolicy}/>
         <Route path="/RewardPolicy" component={RewardPolicy}/>
