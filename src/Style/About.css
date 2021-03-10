@@ -14,12 +14,8 @@ hr{
     border: 1px solid black;
 }
 
-.Sectionone{
-  background-color: black;
-  height: 200px;
  
-}
-
+ 
 .AboutColumnimg{
  padding-top: 90px;
 }
@@ -32,77 +28,30 @@ hr{
 
 }
 
-.blogbanner{
-  position: relative;
-  margin-top: 100px;
-}
-
-.bannerimg{
- 
- width: 100%;
-  max-width:1348px;
-  height: 100%; 
-  max-height:700px;
-    
-   margin-bottom: 70px;
-    
   
-}
-.aboutbannerbackground{
-  background-image: url(../Content/PNG/SelectedBanner/DMllnafUBJ.jpg);
-  background-size: cover;
-  background-position:center ;
-  background-repeat: no-repeat;
-  height: 600px;
-}
 
-.blogbanner .bannertext2 {
-  position: absolute;
- 
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: #2b292993; /* Black background with 0.5 opacity */
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
+.aboutsection1{
+  margin-top: 80px;
 }
-.bannr{
-  background-image: url(../Content/PNG/SelectedBanner/DMllnafUBJ.jpg);
-  height: 600px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-   
-}
-.bannertxt2{
-  position: absolute;
-  top: 50%;
-  font-size: 32px;
-  font-family: Oswald;
-  text-align: center;
-  color: rgb(218, 218, 218);
-}
-
-
 .aboutfont1heading{
   font-family: Oswald;
-  font-size:32px;
+  font-size:2.15rem;
   font-weight: bold;
   text-align: center;
   color: rgb(0, 0, 0)
   }
   .aboutcontent{
-      font-size:16px;
-      text-align: center;
+      font-size:1rem;
+      text-align: left;
       font-family: OpenSans;
  
   }
+  .aboutcontent1{
+    font-size:1rem;
+    text-align: left;
+    font-family: OpenSans;
 
-
-
-.bannerdiv{
-  margin-top: 40px;
 }
-
 
 
 .dvabout1{
@@ -112,30 +61,24 @@ padding-top: 100px;
     height: auto;
    
 }
-
-.Aboutimage1{
-width:100%;
-max-width: 2000px;
-height: auto;
-}
-
+ 
 .dvaboutfont1{
 font-family:Oswald;
-font-size:32px ;
+font-size:2.15rem ;
 font-weight: bold;
 text-align: center;
 color: rgb(0, 0, 0)
 }
  
 .aboutcontent2{
-    font-size: 16px;
+    font-size: 1rem;
   text-align: center;
     font-family: OpenSans; 
     
 }
 .emailinput{
-    width: 250px;
-    height: 50px;
+    width: 230px;
+    height: 40px;
     border-radius: 5px;
  
 }
@@ -151,19 +94,19 @@ color: rgb(0, 0, 0)
 
 .emailfont1{
     font-family: Oswald;
-     font-size: 18px; 
+     font-size: 1.3rem; 
      color:white;
 
 }
 .emailfont2{
     font-family: OpenSans; 
-    font-size: 16px; 
+    font-size: 1.2rem; 
  
     color:white;
 }
 .btnemailsignup{
     width: 90px;
-    height: 40px;
+    height: 35px;
     border-radius: 5px;
     margin-left: 10px;
     
@@ -173,53 +116,130 @@ color: rgb(0, 0, 0)
 }
 
 
-.parallax1 {
-    /* The image used */
-    background-image: url("../Content/PNG/Scrollableimage1.jpeg");
+ 
+
+
+  @media (max-width:1199px){
+  html{
+  font-size: 90%;
   
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    opacity: 0.7;
-    z-index: 1;
   }
-  .parallax2 {
-    /* The image used */
-    background-image: url("../Content/PNG/Scrollableimage3.jpeg");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    opacity: 0.7;
-    z-index: 1;
   }
-  .parallax3 {
-    /* The image used */
-    background-image: url("../Content/PNG/Scrollableimage4.jpeg");
+
+  @media (max-width:991px){
+    html{
+    font-size: 80%;
     
-    /* Set a specific height */
-    min-height: 500px; 
-   
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    opacity: 0.7;
-    z-index: 1;
-  }
- 
+    }
+    
+         
+  .btnemailsignup{
+    width: 75px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.emailinput{
+  width: 200px;
+  height: 35px;
+}
+.emaildivbackground{
+  
+  height: 250px;
+}
+      
 
 
 
- 
+    }
+
+
+
+    @media (max-width:765px){
+     
+      html{
+        font-size: 85%;
+        
+        }
+
+  .btnemailsignup{
+    width: 75px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.emailinput{
+  width: 200px;
+  height: 35px;
+}
+.emaildivbackground{
+  
+  height: 200px;
+}
+      
+
+    }
+
+
+
+
+    @media (max-width:560px){
+      html{
+      font-size: 80%;
+      
+      }
+                 
+      .dvabout1{
+        padding-top: 30px;
+        padding-bottom: 10px;
+       
+           
+        }
+        
+  .btnemailsignup{
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.emailinput{
+  width: 190px;
+  height: 35px;
+}
+.emaildivbackground{
+  
+  padding-top: 10px;
+  height: 240px;
+  padding-bottom: 10px;
+}
+      
+      }
+
+
+     
+      @media (max-width:375px){
+        html{
+          font-size: 75%;
+          
+          }
+  .btnemailsignup{
+    width: 60px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.emailinput{
+  width: 150px;
+  height: 30px;
+}
+.emaildivbackground{
+  padding-top: 10px;
+  height: 240px;
+  padding-bottom: 10px;
+}
+
+      }

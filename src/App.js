@@ -15,7 +15,7 @@ import Services from './Components/Services';
 import Footer from './Components/Footer';
 import Contactus from './Contactus';
 import AnimationImg from './Components/AnimationImg';
- 
+import About from './About'; 
 import Scrollableimage from './Components/ScrollableImage';
  
 function App() {
@@ -39,6 +39,7 @@ function App() {
         <Route path="/blogs" component={Blogs}/>
         <Route path="/Services" component={Services}/>
         <Route path="/Footer" component={Footer}/>
+        <Route path="/About" component={About}/>
          
         <Route path="/AnimationImg" component={AnimationImg}/>
         <Route path="/ScrollableImage" component={Scrollableimage}/>
