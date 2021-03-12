@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Col, Row, Modal } from "react-bootstrap";
 import "./Style/Shop.css";
-import "./Style/Home.css";
+ 
 import SilverLogo from "./Content/PNG/SilverLogo.png";
 import NavbarLogo from "./Content/PNG/Silver.png";
 import LoginAvatar from "./Content/PNG/loginavatar.png";
@@ -26,6 +26,7 @@ function Shop() {
         <Row>
           <div className="col-lg-12 col-sm-12 col-md-12">
             <div className="IngredientTitle">Products</div>
+<hr/>
           </div>
         </Row>
       </Container>
@@ -37,6 +38,7 @@ function Shop() {
         <Col lg={4} xl={4} md={6} sm={8} xs={8} className="dvshoping1">
             <div className="dvshopfont1">Activate - Arvore Aquilaria </div>
             <img className="dv9shopingimg1" src={ActivateVariant} />
+            
             <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
               <div className="dv9imgshopdescription">
                 <button className="btnshop1" onClick={() => setActivate(true)}>
@@ -44,7 +46,14 @@ function Shop() {
                   <i className="fa fa-eye"></i>
                 </button>
               </div>
+              
             </div>
+            
+            <button className="btnshop2" onClick={() => setActivate(true)}>
+                  Quick View  
+                  
+                </button>
+            
             <Modal
               size="lg"
               show={activate}
@@ -97,7 +106,10 @@ function Shop() {
                 </button>
               </div>
             </div>
-        
+            <button className="btnshop2" onClick={() => setFillPatches(true)}>
+                  Quick View  
+                  
+                </button>
           <Modal
               size="lg"
               show={fillpatches}
@@ -112,7 +124,7 @@ function Shop() {
               <Modal.Body>
                   <div className="row">
                       <div className="col-lg-6 col-sm-12 col-md-6">
-                        <img className="dv9shopingimg1" src={fillpatches} />
+                        <img className="dv9shopingimg1" src={FillPatchesVariant} />
                       </div>
                       <div className="col-lg-6 col-sm-12 col-md-6">
                         <div className="fontproduct">Fill Patches - Grama Fresca</div>
@@ -137,7 +149,7 @@ function Shop() {
          
 
           <Col lg={4} xl={4} md={6} sm={8} xs={8} className="dvshoping3">
-            <div className="dvshopfont1">Nourish - Grama Fresca</div>
+            <div className="dvshopfont1">Nourish -  Serien Epice</div>
             <img className="dv9shopingimg1" src={NourishVariant} />
             <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
               <div className="dv9imgshopdescription">
@@ -152,7 +164,10 @@ function Shop() {
                 </button>
               </div>
             </div>
-         
+            <button className="btnshop2" onClick={() => setNourish(true)}>
+                  Quick View  
+                  
+                </button>
           <Modal
               size="lg"
               show={nourish}
@@ -161,7 +176,7 @@ function Shop() {
             >
               <Modal.Header closeButton>
                 <Modal.Title id="example-modal-sizes-title-sm">
-                Fill Patches - Grama Fresca
+                Nourish - Serien Epice
                 </Modal.Title>
               </Modal.Header>
               <Modal.Body>
@@ -177,6 +192,8 @@ function Shop() {
                       <div>
                       To tame the mane you proudly own, you need some whip in the form of Our Serein
                                             epic Nourishing Oil.
+                                            Our Nourish Oil is a blend of Premium quality organic carrier oils, 
+                                            essential oils and with an aroma of organic musk to make the beard soft, shiny and flaky.
                                             
                       </div>
                       <hr />

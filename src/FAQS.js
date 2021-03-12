@@ -201,7 +201,7 @@ function FAQS(){
                                 to which helps facilitate hair growth,
                                 and oils that nourish and smooth hair to reduce the amount of hair lost naturally
                                 and while brushing or combing.
-                            </p>y</Card.Body>
+                            </p></Card.Body>
     </Accordion.Collapse>
   </Card>
 </Accordion>
